@@ -16,4 +16,4 @@ ts3ft = ts3.filetransfer.TS3FileTransfer(ts3conn)
 #Ardından Upload Yapıyoruz
 
 with open("resim.png", "resim2") as file:
-ts3ft.init_upload(input_file=file, name="/resim2.png", cid=2) # İsim ve Kullanici İD
+ts3ft.init_upload(input_file=file, name="/resim2.png", cid=2) # Dosya Adı ve Kullanici İD'si
