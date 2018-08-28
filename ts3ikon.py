@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+# Basit Python 3 Üzerinden TS3 Sunucunuza İkon Yükleme
+# MR.HASANATİLAN
+# Skype: SkyTime1234
+# HasanAtilan.Com
+# Full Stack Developer
 
 with ts3.query.TS3Connection("localhost") as ts3giris:
 ts3giris.girelim(
